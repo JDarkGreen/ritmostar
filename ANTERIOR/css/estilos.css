@@ -1,0 +1,372 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	font-family: Arial;
+	font-size: 12px;
+	background: url(../images/academia-baile-ritmos-salsa-cumbia-lima-peru.jpg) top no-repeat #000;
+}
+#main {
+	width: 983px;
+	margin: 0px auto;
+}
+#cabecera {
+	width: 983px;
+	height: 258px;
+	margin-top: 15px;
+}
+#barra-menu {
+	width: 983px;
+	height: 46px;
+	background: url(../images/clases-baile-lima-peru.jpg) repeat-x;
+}
+#menu {
+	margin: 0px;
+	padding: 0px;
+}
+#menu li {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	float: left;
+}
+#menu a {
+	display: block;
+	text-decoration: none;
+	padding-left: 41px;
+	padding-right: 41px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	color: #FFF;
+}
+#menu a:hover {
+	background-image: url(../images/taller-baile-lima-peru.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	color: #00CCFF;
+}
+#menu .active {
+	background-image: url(../images/taller-baile-lima-peru.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	color: #00CCFF;
+}
+#contenido {
+	width: 953px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background: url(../images/clases-baile-salsa-lima-peru.png);
+}
+#contenido-left {
+	width: 618px;
+	float: left;
+	padding-right: 0px;
+	margin-right: 14px;
+}
+#contenido-left-total {
+	width: 540px;
+	float: left;
+	padding-right: 10px;
+}
+#contenido-right-total {
+	width: 403px;
+	float: left;
+	padding-right: 0px;
+}
+#texto-left {
+	text-align: justify;
+	color: #FFF;
+	padding-bottom: 30px;
+	border-bottom: #333333 1px solid;
+	padding-right: 10px;
+}
+h1 {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	font-size: 19px;
+	font-weight: bold;
+	color: #FFF;
+	text-align: left;
+}
+#contenido-right {
+	width: 306px;
+	float: left;
+	margin-left: 15px;
+}
+#menu-inferior {
+	width: 831px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	float: left;
+	margin-left: 61px;
+	margin-right: 61px;
+	margin-top: 30px;
+}
+#bottom-menu {
+	margin: 0px;
+	padding: 0px;
+}
+#bottom-menu li {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	float: left;
+}
+#bottom-menu a {
+	display: block;
+	text-decoration: none;
+	color: #666666;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+#bottom-menu a:hover {
+	color: #999;
+}
+.clear {
+	clear: both;
+}
+#linea {
+	width: 100%;
+	height: 4px;
+	background: #333333;
+}
+#footer {
+	width: 953px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	margin: 0px auto;
+	padding-top: 10px;
+}
+#footer-left {
+	font-size: 14px;
+	width: 476px;
+	float: left;
+	color: #fff;
+	text-align: left;
+}
+#footer-right {
+	font-size: 14px;	
+	width: 475px;
+	float: left;
+	color: #fff;
+	text-align: right;
+}
+.publicidad-inferior {
+	width: 300px;
+	float: left;
+	padding-left: 9px;
+}
+.seccion-publicidad {
+	width: 618px;
+}
+.titulo-publicidad-inferior {
+	width: 300px;
+	height: 36px;
+	background: url(../images/clases-baile-personalizadas-salsa-merengue-lima-peru1.jpg) repeat-x;
+}
+.title-publicidad-inferior {
+	width: 190px;
+	height: 36px;
+	float: left;
+}
+.vermas-publicidad-inferior {
+	width: 110px;
+	height: 36px;
+	float: left;
+}
+.imagen-publicidad {
+	width: 300px;
+	height: 192px;
+}
+.footer-publicidad {
+	width: 290px;
+	height: 12px;
+	background: url(../images/lecciones-baile-lima-peru.jpg) repeat-x;
+	color: #FFF;
+	font-size: 14px;
+	text-align: right;
+	padding-right: 10px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+}
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #F7C101;
+	margin: 0px;
+	display: block;
+	text-align: left;
+	float: left;
+}
+h4 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	color: #F7C101;
+	margin: 0px;
+	display: block;
+	text-align: left;
+	float: right;
+}
+h3 {
+	color: #F7C101;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin: 0px;
+	text-align: left;
+}
+.contenido-izquierdo {
+	text-align: justify;
+	color: #FFF;
+}
+.instructor {
+	width: 525px;
+	padding-bottom: 15px;
+	float: left;
+	padding-right: 15px;
+}
+.contenido-instructor {
+	width: 488px;
+	text-align: justify;
+	float: left;
+	color: #FFF;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+#icon-instructor {
+	list-style: url(../images/profesores-baile-salsa.png);
+	line-height: 18px;
+}
+.nombre-instructor {
+	color: #F7C101;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	text-align: left;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 40px;
+}
+.imagen-instructor {
+	float: left;
+	width: 407px;
+}
+#galeria {
+	width: 953px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.imagen-galeria {
+	width: 170px;
+	height: 150px;
+	float: left;
+	margin-left: 9px;
+	margin-right: 9px;
+	margin-bottom: 10px;
+	border: 1px solid #09F;
+}
+.video-galeria {
+	width: 311px;
+	height: 246px;
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+}
+#redes-sociales {
+	width: 805px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	float: left;
+	margin-left: 74px;
+	margin-right: 74px;
+	margin-top: 15px;
+	color: #FFF;
+}
+#promocion {
+	width: 617px;
+	height: 103px;
+}
+#ritmo-baile {
+	width: 306px;
+	height: 103px;
+}
+#makeMeScrollable {
+	width: 407px;
+	height: 360px;
+	position: relative;
+}
+#makeMeScrollable div.scrollableArea img {
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#galeria-videos {
+	width: 680px;
+	padding-left: 15px;
+	float: left;
+	padding-top: 10px;
+}
+#contenido-videos {
+	width: 256px;
+	float: left;
+	text-align: justify;
+}
+#yellow {
+	list-style: url(../images/academia-baile-lima-peru1.png);
+	line-height: 22px;
+	color: #F90;
+}
+#green {
+	list-style: url(../images/academia-baile-lima-peru2.png);
+	line-height: 22px;
+	color: #0C0;
+}
+#blue {
+	list-style: url(../images/academia-baile-lima-peru3.png);
+	line-height: 22px;
+	color: #09F;
+}
+#contenido-left-contactenos {
+	width: 251px;
+	float: left;
+	margin-right: 7px;
+}
+#contenido-centro-contactenos {
+	width: 359px;
+	float: left;
+	color: #FFF;
+	text-align: left;
+}
+#contenido-right-contactenos {
+	width: 330px;
+	float: left;
+	margin-left: 5px;
+}
+#map-site {
+	list-style: url(../images/aprenda-bailar-salsa-lima-peru.png);
+	line-height: 20px;
+}
+.info a:link {
+	color: #06C;
+	text-decoration: none;
+}
+.info a:visited {
+	text-decoration: none;
+	color: #06C;
+}
+.info a:hover {
+	text-decoration: none;
+	color: #06C;
+}
+.info a:active {
+	text-decoration: none;
+	color: #06C;
+}

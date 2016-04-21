@@ -1,0 +1,130 @@
+/* Copyright (C) YOOtheme GmbH, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+
+#block-slideshow{
+background-image : url(../../../../images/slideshow/green.jpg) ;
+background-size:cover ;
+background-repeat:no-repeat;
+background-position:50% 50% ;
+background-attachment:fixed;
+}
+.menu-dropdown .dropdown-bg > div {
+border-bottom:2px solid #76A55A;
+}
+#block-bottom-c {
+border-top : 3px solid #76A55A;
+}
+.custom-logo {
+width : 200px;
+height : 90px;
+background : url('../../images/logo/logo_blue.png') 50% 50% no-repeat;
+background-size : contain;
+}
+.menu-dropdown li.level2 a:hover {
+color: #FFFFFF;
+padding-left: 5px;
+}
+#bottom-c .module-title {
+border-bottom : 1px solid #76A55A;
+padding : 5px;
+}
+
+/*Module Style
+----------------------------------------------------------------------------------------------------*/
+.module-title
+{
+	border-bottom: 1px solid #76A55A;
+	padding-bottom: 15px;
+	position: relative;
+}
+.module-title:after
+{
+	content: " ";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: #76A55A;
+	width: 25%;
+	height: 2px;
+}
+
+
+
+
+
+#block-header {
+background-image : url('../../images/gradient_header.png');
+background-repeat : no-repeat;
+background-color:#000000;background-size:cover;
+}
+.menu-dropdown li.active .level1{
+border-top:1.5px solid #76A55A;
+color:#D1D1D1;
+position:relative; 
+}
+.menu-dropdown li.level1:hover .level1, .menu-dropdown li.remain .level1 {
+color:#D1D1D1;
+border-top:1.5px solid #76A55A;
+}
+.icon-stack, .icon-stack-base {
+-webkit-transition: all 0.4s ease 0s;
+-moz-transition: all 0.4s ease 0s;
+-o-transition: all 0.4s ease 0s;
+transition: all 0.4s ease 0s;
+overflow: hidden;
+}
+.icon-stack:hover {
+cursor: pointer;
+transform:scale(1.3);
+-webkit-transform: scale(1.3);
+-moz-transform: scale(1.3);
+-o-transform: scale(1.3);
+position: relative;
+}
+.icon-stack:hover .icon-stack-base {
+color: #76A55A;
+}
+#sidebar-a .module-title, #sidebar-b .module-title {
+color : #444;
+border-bottom : 1.8px solid #76A55A;
+}
+
+#system .item > header time {
+border-top:6px solid #76A55A;
+}
+
+ a.button-more, p.links a, .button-primary {
+background-color: #76A55A;
+border-radius: 4px;
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+text-decoration: none;
+color: #FFFFFF;
+box-shadow: 0 4px 0 #334827, 0 5px 5px 1px rgba(0, 0, 0, 0.4);
+-webkit-transition: all 0.15s ease-in-out;
+-moz-transition: all 0.15s ease-in-out;
+-o-transition: all 0.15s ease-in-out;
+-ms-transition: all 0.15s ease-in-out;
+transition: all 0.15s ease-in-out;
+background-image:none;
+border-style:none;
+text-shadow:0 1px 1px rgba(0, 0, 0, 0.6) !important;
+}
+
+a.button-more:hover, p.links a:hover, .button-primary:hover{
+text-shadow: 0 -1px -1px #119d57;
+background-color: #444444;
+box-shadow: 0 4px 0 #212121, 0 5px 5px 1px rgba(0, 0, 0, 0.4);
+
+}
+
+
+.box-light:hover {
+border-bottom:2px solid #76A55A;
+}
+
+table.calendar tr td.calendarToday{
+box-shadow:0 3px 2px rgba(0, 0, 0, 0.17);
+background:none repeat scroll 0 0 #76A55A;
+}

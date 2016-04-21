@@ -1,0 +1,131 @@
+/* Copyright (C) YOOtheme GmbH, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+@import url(../warp/css/modules.css);
+
+
+/* Module Badges
+----------------------------------------------------------------------------------------------------*/
+
+.module .badge {
+	width: 32px;
+	height: 22px;
+	background: url(../images/module_badges.png) 0 0 no-repeat;
+}
+ 
+.module .badge-hot { background-position: 0 0; }
+.module .badge-top { background-position: 0 -25px; }
+.module .badge-free { background-position: 0 -50px; }
+.module .badge-new { background-position: 0 -75px; }
+
+
+/* Module Icons
+----------------------------------------------------------------------------------------------------*/
+
+.module .module-title .icon { background: url(../images/module_icon.png) 0 0 no-repeat; }
+
+.module .module-title .icon-download { background-position: 0 0; }
+.module .module-title .icon-twitter { background-position: 0 -30px; }
+.module .module-title .icon-mail { background-position: 0 -60px; }
+.module .module-title .icon-bubble { background-position: 0 -90px; }
+.module .module-title .icon-login { background-position: 0 -120px; }
+.module .module-title .icon-cart { background-position: 0 -150px; }
+
+
+/* Module Type: Box
+----------------------------------------------------------------------------------------------------*/
+
+.mod-box {
+padding: 15px;
+border: 1px solid #ddd;	
+}
+
+/*Module Style
+----------------------------------------------------------------------------------------------------*/
+.module-title
+{
+	
+	padding-bottom: 15px;
+	position: relative;
+
+}
+.module-title:after
+{
+	content: " ";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 24%;
+	height: 2px;
+	
+}
+
+
+.module .module-title span.subtitle{
+font-size:16px;
+margin-top:11px;
+}
+
+.mod-box .badge { top: 10px; right: 10px; }
+
+/* Box Type: Light
+----------------------------------------------------------------------------------------------------*/
+
+.box-light {
+background:none repeat scroll 0 0 #FFFFFF;border-top:1px solid #EAEAEA;box-shadow:0 2px 2px #E6E6E6;
+border-bottom:2px solid #EAEAEA;border-radius:3px;
+ }
+  
+.box-light:hover {
+
+border-radius:6px;
+border-bottom:2px solid #2A98FA;
+padding:13px;background:none repeat scroll 0 0 #FFFFFF;
+
+}
+/* Box Type: Grey
+----------------------------------------------------------------------------------------------------*/
+.box-grey{
+border-color:rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.3);
+border-style:solid;
+box-shadow:0 1px 1px rgba(0, 0, 0, 0.1);
+background-color: #e2e2e2;
+background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(226, 226, 226)), to(rgb(251, 251, 251)));
+background-image: -webkit-linear-gradient(top, rgb(226, 226, 226), rgb(251, 251, 251));
+background-image: -moz-linear-gradient(top, rgb(226, 226, 226), rgb(251, 251, 251));
+background-image: -o-linear-gradient(top, rgb(226, 226, 226), rgb(251, 251, 251));
+background-image: -ms-linear-gradient(top, rgb(226, 226, 226), rgb(251, 251, 251));
+background-image: linear-gradient(top, rgb(226, 226, 226), rgb(251, 251, 251));
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#e2e2e2', EndColorStr='#fbfbfb');
+border-radius:6px;
+border: 1px solid #E0E0E0;
+}
+  /* Box Type: Dark
+----------------------------------------------------------------------------------------------------*/
+.box-dark, pre{
+padding: 15px;
+border: 1px solid #E0E0E0;
+box-shadow:0 1px 0 #FFFFFF, 0 1px 2px rgba(0, 0, 0, 0.6) inset;
+text-shadow:0 2px 4px rgba(0, 0, 0, 0.6) inset, 0 1px 0 #FFFFFF;
+border-radius:6px;
+background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(67, 67, 67)), to(rgb(13, 13, 13)));
+background-image: -webkit-linear-gradient(top, rgb(67, 67, 67), rgb(13, 13, 13));
+background-image: -moz-linear-gradient(top, rgb(67, 67, 67), rgb(13, 13, 13));
+background-image: -o-linear-gradient(top, rgb(67, 67, 67), rgb(13, 13, 13));
+background-image: -ms-linear-gradient(top, rgb(67, 67, 67), rgb(13, 13, 13));
+background-image: linear-gradient(top, rgb(67, 67, 67), rgb(13, 13, 13));
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#434343', EndColorStr='#0d0d0d');
+color:#FFFFFF;
+-webkit-box-shadow:0 1px 1px rgba(0,0,0,0.1),inset 0 1px 1px rgba(225,225,225,0.4),inset 0 -1px 1px rgba(0,0,0,0.1);
+-moz-box-shadow:0 1px 1px rgba(0,0,0,0.1),inset 0 1px 1px rgba(225,225,225,0.4),inset 0 -1px 1px rgba(0,0,0,0.1);
+}
+
+   /* Box Type: Info
+----------------------------------------------------------------------------------------------------*/
+.box-info {
+  background-color: #D9EDF7;
+  border-color: #BCE8F1;
+  color: #3A87AD;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.6)inset;
+  border-radius:6px;
+}
+
